@@ -15,6 +15,16 @@ body {
 .navbar-brand {
   font-weight: bold;
 }
+.navbar ul li {
+  padding: 0px 20px;
+}
+.nav-btn {
+  background-color: rgb(71, 41, 202);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
 .hero-section,
 .footer-section {
   background-color: rgb(240, 237, 233);
@@ -22,11 +32,11 @@ body {
 
 .hero-section h1,
 .body-section h1 {
-  font-size: 2.4rem;
+  font-size: 2.378rem;
   font-weight: bold;
 }
 .body-section p {
-  font-size: 1.1rem;
+  font-size: 1.22rem;
 }
 h2 {
   font-size: 1.1rem;
@@ -54,8 +64,18 @@ p {
   font-weight: bold;
   /* font-size: 1.254rem; */
 }
+
 .span-style {
-  margin-left: 10px;
+  padding-left: 0;
+  margin-right: 0;
+  display: inline-block;
+}
+.span-style svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+.span-style span {
+  font-size: 1rem;
 }
 .span-style span {
   font-family: "Inter", sans-serif;
@@ -65,7 +85,6 @@ p {
 .why-fiber {
   color: rgb(71, 41, 202);
   /* font-size: 1.254rem; */
-  font-weight: bold;
 }
 .icon-headings {
   font-weight: bold;
@@ -73,14 +92,12 @@ p {
 .diversify-section {
   background-color: rgb(71, 41, 202);
   padding: 16px;
-  margin: 1px;
   border-radius: 5px;
   color: white;
-  background-color: rgb(71, 41, 202);
 }
 .diversify-section p {
   color: rgb(229, 224, 230);
-  font-size: 1.18rem;
+  font-size: 1.19rem;
 }
 .diversify-section .free-trial-btn,
 .profiles button {
@@ -94,10 +111,25 @@ p {
   width: 100%;
 }
 .diversify-section img {
-  height: 200px;
-  width: 100%;
   border-radius: 5px;
-  padding-top: 10px;
+  width: 100%; /* width of container */
+  height: 600px; /* height of container */
+  object-fit: cover;
+  object-position: 50%; /* try 20px 10px */
+}
+.diversify-section button {
+  background-color: white;
+  color: rgb(71, 41, 202);
+  font-size: 1.254rem;
+  font-weight: bold;
+  padding: 18px;
+  border: none;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .diversify-section button {
+    width: 100%;
+  }
 }
 .profiles p {
   font-size: 1.159rem;
@@ -141,6 +173,9 @@ p {
   font-weight: bold;
   margin-top: 25px;
   padding: 2px;
+}
+.footer-section {
+  font-size: 1.1rem;
 }
 .sitemap,
 .resources,
