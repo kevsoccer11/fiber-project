@@ -23,16 +23,20 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
+  width: 120px;
+  text-align: center;
 }
 
 .hero-section,
 .footer-section {
   background-color: rgb(240, 237, 233);
 }
-
-.hero-section h1,
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
 .body-section h1 {
-  font-size: 2.378rem;
+  font-size: 2.478rem;
   font-weight: bold;
 }
 .body-section p {
@@ -42,12 +46,17 @@ h2 {
   font-size: 1.1rem;
 }
 h6 {
+  padding: 0;
   font-weight: 300;
 }
 p {
   font-family: "Inter", sans-serif;
   /* font-size: 1.2rem; */
 }
+.rating-style svg {
+  padding-bottom: 4px;
+}
+
 .free-trial-btn {
   padding: 18px;
   border: none;
@@ -157,7 +166,6 @@ p {
 
 .profile-header img {
   margin-right: 10px;
-  display: block;
 }
 .profile-header h5 {
   color: rgb(71, 41, 202);
