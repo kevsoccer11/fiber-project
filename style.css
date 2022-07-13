@@ -195,6 +195,13 @@ p {
   /* font-size: 1.2rem; */
   line-height: 1.7;
 }
+.sitemap a,
+.resources a,
+.company a,
+.portfolios a {
+  text-decoration: none;
+  color: initial;
+}
 .sitemap li,
 .resources li,
 .company li,
